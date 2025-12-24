@@ -8,7 +8,7 @@
 
 ```bash
 # 从 GitHub
-npm install -D github:https://github.com/so11y/autoTranslation
+npm install -D https://github.com/so11y/autoTranslation.git
 
 ```
 
