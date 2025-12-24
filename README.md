@@ -125,12 +125,12 @@ console.log("欢迎使用");
 
 ```vue
 <template>
-  <div>{{ $t("你好世界") }}</div>
-  <button @click="showMessage($t('操作成功'))">确认</button>
+  <div>{{ `${$t("你好世界")}` }}</div>
+  <button @click="showMessage(`${$t('操作成功')}`)">确认</button>
 </template>
 
 <script setup>
-console.log($t("欢迎使用"));
+console.log(`${$t("欢迎使用")}`);
 </script>
 ```
 
