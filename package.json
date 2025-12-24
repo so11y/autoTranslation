@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dits/auto-translation.cjs",
-  "module": "./dits/auto-translation.js",
-  "types": "./dits/index.d.ts",
+  "main": "./dist/auto-translation.cjs",
+  "module": "./dist/auto-translation.js",
+  "types": "./dist/index.d.ts",
   "files": [
+    "dist",
     "autoTranslation"
   ],
   "scripts": {
