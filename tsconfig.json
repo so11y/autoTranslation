@@ -9,5 +9,5 @@
     "moduleResolution": "node",
     "module": "esnext"
   },
-  "include": ["./vite.config.ts", "vite.config.debugger.ts"]
+  "include": ["./autoTranslation/**/*.ts"]
 }

@@ -1,7 +1,7 @@
 import { outputFile } from "fs-extra";
 import { debounce } from "lodash-es";
-import { resolve } from "path";
-import { pathToFileURL } from "url";
+import { resolve } from "node:path";
+import { pathToFileURL } from "node:url";
 import { translateText } from "./ai";
 import { PromiseWithResolvers } from "./helper";
 import { hasChinese } from "./helper/convertAndExtract";

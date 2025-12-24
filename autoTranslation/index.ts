@@ -3,7 +3,7 @@ import { createFilter, Plugin, ResolvedConfig } from "vite";
 import { AgentOption, CacheContext } from "./cache";
 import { transformText } from "./transform/transformJs";
 import { debounce } from "lodash-es";
-import { basename, extname } from "path";
+import { basename, extname } from "node:path";
 
 export default function (options: { agent: AgentOption }): Plugin[] {
   const jsFilter = createFilter(/\.(js|ts|tsx|vue)$/, /node_modules|_i18_81i_/);
