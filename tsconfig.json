@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceRoot": "/",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "esnext"
+  },
+  "include": ["./vite.config.ts", "vite.config.debugger.ts"]
+}
